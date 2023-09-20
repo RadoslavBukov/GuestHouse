@@ -5623,10 +5623,10 @@ button.close {
 @media (max-width: 767px) {
     .hidden-xs {
         display: none !important; } }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1055px) {
     .hidden-sm {
         display: none !important; } }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 1056px) and (max-width: 1199px) {
     .hidden-md {
         display: none !important; } }
 @media (min-width: 1200px) {
@@ -11856,7 +11856,7 @@ button.close {
     vertical-align: middle;
     font-size: 15px;
     zoom: 1;
-    *display: inline;
+    display: inline;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -12300,7 +12300,7 @@ button.close {
     bottom: 30px;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
     /*IE7 life-saver */
     color: #000000;
     font: 0/0 a;
@@ -12365,7 +12365,7 @@ button.close {
 .owl-theme .owl-controls .owl-page {
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
     /*IE7 life-saver */ }
 .owl-theme .owl-controls .owl-page span {
     background: #333333;
@@ -13258,7 +13258,7 @@ blockquote:before {
     transition: all 0.3s ease; }
 @media (max-width: 992px) {
     #main-header {
-        position: relative;
+        /* position: relative; */
         height: auto; } }
 @media (max-width: 992px) {
     #main-header .inner-container {
@@ -13286,7 +13286,7 @@ blockquote:before {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; }
 .inner-container{
-
+    margin: 0px 12%;
 }
 #main-header a {
     color: #333333;
@@ -13315,6 +13315,7 @@ blockquote:before {
     #main-header #top-logo {
         float: right;
         padding-right: 20px; } }
+
 #main-header #top-logo .title {
     font-size: 22px;
     border-bottom: 1px solid #FFFFFF;
@@ -13421,7 +13422,7 @@ blockquote:before {
         padding-left: 10px; }
     #main-header .inner-container > div.right-sec {
         padding-right: 15px; } }
-@media (max-width: 992px) {
+@media (max-width: 1055px) {
     #main-header .inner-container > div {
         float: left; }
     #main-header .inner-container > div.left-sec {
@@ -13429,8 +13430,8 @@ blockquote:before {
         padding-left: 15px; }
     #main-header .inner-container > div.right-sec {
         width: calc( 100% - 200px ); }
-    #main-header .right-sec {
-        background: #FFFFFF; }
+    /* #main-header .right-sec {
+        background: #FFFFFF; } */
     #main-header .right-sec #main-menu {
         display: none; }
     #main-header #mobile-menu-container {
@@ -13485,6 +13486,12 @@ blockquote:before {
         background: none; }
     #main-header #main-menu li ul li:last-child a {
         border-bottom: 1px solid #d0d4d7; } }
+
+@media (max-width: 1530px){
+        .inner-container{
+        margin: auto;} }
+    
+
 @media (max-width: 420px) {
     #main-header .inner-container > div.left-sec {
         width: 160px; }
@@ -16516,4 +16523,5 @@ form.comment-form input[type="submit"] {
 @media (max-width: 600px) {
     form.comment-form input[type="text"], form.comment-form input[type="email"], form.comment-form textarea {
         width: 100%;
-        min-width: 0; } }
+        min-width: 0; } 
+    }

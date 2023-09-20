@@ -18,16 +18,16 @@ body {
     margin: 20px auto 30px;
 }
 
-@media (max-width: 420px){
+@media (max-width: 1055px){
     #main-header .inner-container > div.left-sec #top-logo .title {
         font-size: 100%;
-        margin: 0px 0;
+        /* margin: 0px 0; */
     }
 
     #main-header #top-logo .title {
         font-size: 22px;
         border-bottom: 1px solid #FFFFFF;
-        line-height: 25px;
+        line-height: 21px;
 
     }
 }
