@@ -14282,6 +14282,10 @@ body.homepage #luxury-rooms, body.homepage #special-dishes {
         padding-bottom: 30px; } }
 #top-footer .widget:first-child h4 {
     padding-left: 0; }
+@media (max-width: 620px) {
+    #top-footer .widget:first-child h4 {
+        padding: auto; }
+}
 #top-footer .widget:first-child .widget-content {
     border-left: 0;
     padding-left: 0; }
