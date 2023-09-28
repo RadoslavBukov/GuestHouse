@@ -12365,7 +12365,6 @@ button.close {
 .owl-theme .owl-controls .owl-page {
     display: inline-block;
     zoom: 1;
-    display: inline;
     /*IE7 life-saver */ }
 .owl-theme .owl-controls .owl-page span {
     background: #333333;
@@ -13286,7 +13285,7 @@ blockquote:before {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; }
 .inner-container{
-    margin: 0px 12%;
+    margin: 0px 17%;
 }
 #main-header a {
     color: #333333;
@@ -14270,22 +14269,23 @@ body.homepage #luxury-rooms, body.homepage #special-dishes {
         padding: 0 15px !important; } }
 #top-footer .widget {
     padding: 0; }
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
     #top-footer .widget {
-        margin-bottom: 30px; } }
+        margin-bottom: 30px; } } */
 @media (max-width: 600px) {
     #top-footer .widget {
         float: none;
         width: 100%;
         border: 0;
         border-bottom: 1px solid #404040;
-        padding-bottom: 30px; } }
+        /* padding-bottom: 30px;  */
+    } }
 #top-footer .widget:first-child h4 {
     padding-left: 0; }
 @media (max-width: 620px) {
-    #top-footer .widget:first-child h4 {
-        padding: auto; }
-}
+    #top-footer h4 {
+        padding: 0 15px !important; } }
+
 #top-footer .widget:first-child .widget-content {
     border-left: 0;
     padding-left: 0; }
@@ -15632,6 +15632,10 @@ body.contact.type-1 .inner-content:hover .info {
 body.contact.type-2 #map {
     width: 100%;
     height: 550px; }
+@media (max-width: 780px) {
+    body.contact.type-2 #map {
+        width: 100%;
+        height: 40vh; } }
 body.contact.type-2 .contact-page-container {
     padding-bottom: 110px; }
 @media (max-width: 992px) {
