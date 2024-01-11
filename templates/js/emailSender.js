@@ -45,8 +45,8 @@
 		function emptyError() {
 		  Swal.fire({
 			icon: "error",
-			title: "Oops...",
-			text: "Fields cannot be empty!",
+			title: "Уупс...",
+			text: "Полетата не могат да са празни!",
 		  });
 		}
 	  
@@ -54,8 +54,8 @@
 		function success() {
 		  Swal.fire({
 			icon: "success",
-			title: "Success...",
-			text: "Successfully sent message",
+			title: "Успешно...",
+			text: "Съобщението е изпратено успешно!",
 		  });
 		}
 	  
@@ -63,8 +63,8 @@
 		function showError() {
 		  Swal.fire({
 			icon: "error",
-			title: "Oops...",
-			text: "Something went wrong while sending the message!",
+			title: "Уупс...",
+			text: "Нещо се обърка при изпращане на съобщението!",
 		  });
 		}
 	  

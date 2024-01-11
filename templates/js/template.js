@@ -9,7 +9,7 @@ function chosen_drop_down(){
 
 jQuery(document).ready(function() {
     // Go Up
-    jQuery('#go-up-box').on('click',function(){
+    jQuery('#go-up-box').on('click keypress',function(){
         jQuery('body,html').animate({
             scrollTop: 0
         }, 1000);
