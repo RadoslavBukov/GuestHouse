@@ -1,4 +1,9 @@
 @charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -13307,25 +13312,27 @@ blockquote:before {
 .logo-img > img{
     object-position: center;
     object-fit: cover;
+    height: -webkit-fill-available;
     height: 100%;
+    min-height: 100%;
     margin-bottom: 0rem !important;
-    margin-right: 8px;
+    margin-right: 12px;
     background-color: transparent;
 }
 .logo-img{
     margin: 0px;
 }
 #main-header #top-logo {
-    float: left;
+    /*float: left;*/
     text-align: center;
     height: 100px;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-@media (max-width: 767px) {
-    #main-header #top-logo {
-        float: right;
-        padding-right: 20px; } }
+/*@media (max-width: 767px) {*/
+/*    #main-header #top-logo {*/
+/*        float: right;*/
+/*        padding-right: 20px; } }*/
 
 #main-header #top-logo .title {
     font-size: 22px;
@@ -13589,13 +13596,19 @@ body.sticky #main-header.sticky #main-menu li ul li a {
 body.sticky #main-header.sticky .book-now-btn {
     margin-top: 27px; }
 body.sticky #main-header.sticky #top-logo {
-    height: 80px;
+    height: 80px !important;
     color: black; }
 body.sticky #main-header.sticky #top-logo .title {
     margin-top: 4px; }
 body.sticky #main-header.sticky #main-menu-handle {
     margin-top: 27px; }
-
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* Safari-specific styles here */
+    body.sticky #main-header.sticky #top-logo {
+        height: 80px !important;
+        color: black !important;
+    }
+}
 /**
  * Main Slider style
  */

@@ -53,10 +53,14 @@ body
   }
 }
 
-@media (max-width: 610px){
+@media (max-width: 1000px){
   #text{
-    padding-top: 1%;
-    font-size: xx-small;
+    /* padding-top: 1%;
+    font-size: xx-small; */
+    position: relative;
+    width: auto;
+    padding-bottom: 10px;
+    margin-top: 100px;
   }
 }
 
