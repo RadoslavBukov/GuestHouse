@@ -1,12 +1,12 @@
 (function () {
-      const userID = ""; //User ID from EmailJS account //TODO replace it after make EmailJS Account
+      const userID = "QRLLU-ydzoPjEEWcD"; //User ID from EmailJS account
 		  emailjs.init(userID);
 		})();
 
 		// Function to validate and send the email
 		function sendEmail() {
-      const serviceID = ""; //Service ID from EmailJS account //TODO replace it after make EmailJS Account
-      const templateID = ""; //Template ID from EmailJS account //TODO replace it after make EmailJS Account
+      const serviceID = "service_2zuh4ad"; //Service ID from EmailJS account
+      const templateID = "template_nhq5xej"; //Template ID from EmailJS account
 
 
 		  let loader = document.getElementById("loader");
@@ -24,12 +24,13 @@
 			  to_name: "Guest House Meraklii",
 			  name: name,
 			  email: email,
-			  phone: phone, //TODO replace it after make EmailJS Account
+			  phone: phone,
 			  message: msg,
 			})
 			.then(function() {
 			  // Email sent successfully
 			  loader.style.display = "none"; // Hide the loader
+			  console.log(emailjs);
 			  success();
 			})
 			.catch(function(error) {
