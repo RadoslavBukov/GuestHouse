@@ -13313,7 +13313,7 @@ blockquote:before {
     object-position: center;
     object-fit: cover;
     height: -webkit-fill-available;
-    height: 100%;
+    /* height: 100%; */
     min-height: 100%;
     margin-bottom: 0rem !important;
     margin-right: 12px;
@@ -13325,7 +13325,7 @@ blockquote:before {
 #main-header #top-logo {
     /*float: left;*/
     text-align: center;
-    height: 100px;
+    min-height: 100%;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; }
@@ -13514,8 +13514,8 @@ blockquote:before {
     #main-header .inner-container > div.left-sec {
         width: 160px; }
     #main-header .inner-container > div.left-sec #top-logo .title {
-        font-size: 22px;
-        margin: 5px 0; }
+        font-size: 22px;}
+        /* margin: 5px 0; } */
     #main-header .inner-container > div.right-sec {
         width: calc(100% - 160px); } }
 @media (max-width: 300px) {
@@ -13602,13 +13602,13 @@ body.sticky #main-header.sticky #top-logo .title {
     margin-top: 4px; }
 body.sticky #main-header.sticky #main-menu-handle {
     margin-top: 27px; }
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+/* @media screen and (-webkit-min-device-pixel-ratio:0) {
     /* Safari-specific styles here */
     body.sticky #main-header.sticky #top-logo {
         height: 80px !important;
         color: black !important;
     }
-}
+} */
 /**
  * Main Slider style
  */
@@ -13661,7 +13661,51 @@ body.sticky #main-header.sticky #main-menu-handle {
         -ms-transform: translateX(-50%) translateY(-50%);
         -webkit-transform: translateX(-50%) translateY(-50%);
         transform: translateX(-50%) translateY(-50%); } }
+@media (max-width: 992px) {
+    #main-slider .owl-controls, #fullscreen-slider .owl-controls, #room-details-slider .owl-controls {
+        bottom: 30px; }
+    #main-slider .items, #fullscreen-slider .items, #room-details-slider .items {
+        width: 100vw;
+        height: 100vh; }
+    #main-slider .items img, #fullscreen-slider .items img, #room-details-slider .items img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: auto;
+        height: 100%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%); } }
 
+/* Mobile view: */
+@media (max-width: 600px) {
+    #main-slider .owl-controls, #fullscreen-slider .owl-controls, #room-details-slider .owl-controls {
+        bottom: -25px; }
+    #main-slider .items, #fullscreen-slider .items, #room-details-slider .items {
+        width: 100vw;
+        height: 100vh; }
+    #main-slider .items img, #fullscreen-slider .items img, #room-details-slider .items img {
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        /* top: 263px; */
+        width: auto;
+        height: 35%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%); } 
+    #main-slider .owl-wrapper, #fullscreen-slider .owl-wrapper, #room-details-slider .owl-wrapper {
+        width: 100vw !important;
+        height: 49vh !important;
+        left: 0 !important;
+        position: relative;
+        -moz-transform: translateX(0) !important;
+        -ms-transform: translateX(0) !important;
+        -webkit-transform: translateX(0) !important;
+        transform: translateX(0) !important; }
+}
 /**
  * Main Booking Form style
  */
@@ -14448,6 +14492,12 @@ body.homepage #luxury-rooms, body.homepage #special-dishes {
     .internal-page-title {
         margin-top: 0;
         padding: 110px 0; } }
+
+@media (max-width: 600px) {
+    .hide-mobile {
+        visibility: hidden;
+        margin-top: 0;
+        padding: 0 0; } }
 .internal-page-title:before {
     z-index: -1;
     position: absolute;
