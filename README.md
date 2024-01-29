@@ -1,6 +1,6 @@
 # Guest House Web Page
 
-https://https://meraklii-smilyan.com/
+https://meraklii-smilyan.com/
 
 ## Used technology:
  - <img align="center" src="https://github.com/RadoslavBukov/RadoslavBukov/blob/main/Technologies/JS.png" height="30" />
