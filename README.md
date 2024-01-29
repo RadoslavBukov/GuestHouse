@@ -3,9 +3,9 @@
 https://https://meraklii-smilyan.com/
 
 ## Used technology:
- - <img align="center" src="https://github.com/RadoslavBukov/RadoslavBukov/blob/main/Technologies/JS.png" />
- - <img align="center" src="https://github.com/RadoslavBukov/RadoslavBukov/blob/main/Technologies/html5.png" />
- - <img align="center" src="https://github.com/RadoslavBukov/RadoslavBukov/blob/main/Technologies/css3.png" />
+ - <img align="center" src="https://github.com/RadoslavBukov/RadoslavBukov/blob/main/Technologies/JS.png" height="30" />
+ - <img align="center" src="https://github.com/RadoslavBukov/RadoslavBukov/blob/main/Technologies/html5.png" height="30" />
+ - <img align="center" src="https://github.com/RadoslavBukov/RadoslavBukov/blob/main/Technologies/css3.png" height="30" />
 
 ## App Details
 
