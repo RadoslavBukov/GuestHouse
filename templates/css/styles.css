@@ -13679,7 +13679,7 @@ body.sticky #main-header.sticky #main-menu-handle {
         transform: translateX(-50%) translateY(-50%); } }
 
 /* Mobile view: */
-@media (max-width: 600px) {
+@media (max-width: 1025px) {
     #main-slider .owl-controls, #fullscreen-slider .owl-controls, #room-details-slider .owl-controls {
         bottom: -25px; }
     #main-slider .items, #fullscreen-slider .items, #room-details-slider .items {
@@ -13688,7 +13688,7 @@ body.sticky #main-header.sticky #main-menu-handle {
     #main-slider .items img, #fullscreen-slider .items img, #room-details-slider .items img {
         position: absolute;
         left: 50%;
-        top: 30%;
+        top: 32%;
         /* top: 263px; */
         width: auto;
         height: 35%;
@@ -13698,7 +13698,7 @@ body.sticky #main-header.sticky #main-menu-handle {
         transform: translateX(-50%) translateY(-50%); } 
     #main-slider .owl-wrapper, #fullscreen-slider .owl-wrapper, #room-details-slider .owl-wrapper {
         width: 100vw !important;
-        height: 49vh !important;
+        height: 52vh !important;
         left: 0 !important;
         position: relative;
         -moz-transform: translateX(0) !important;
@@ -14493,7 +14493,7 @@ body.homepage #luxury-rooms, body.homepage #special-dishes {
         margin-top: 0;
         padding: 110px 0; } }
 
-@media (max-width: 600px) {
+@media (max-width: 1025px) {
     .hide-mobile {
         visibility: hidden;
         margin-top: 0;
