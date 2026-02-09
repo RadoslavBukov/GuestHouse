@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Compressed archives
+images_optimized.zip
+images.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Environment
+.env
+.env.local
